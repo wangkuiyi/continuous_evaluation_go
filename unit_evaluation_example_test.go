@@ -18,7 +18,7 @@ func SendKPI(kpi, value string) {
 }
 
 func TestExampleUnitEvaluation(t *testing.T) {
-	SendKPI("AnExampleKPI", "20")
+	SendKPI("AnExampleKPI", "15")
 }
 
 func TestAnotherExampleUnitEvaluation(t *testing.T) {
